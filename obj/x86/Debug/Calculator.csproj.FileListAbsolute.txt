@@ -1,0 +1,8 @@
+E:\github\calculator-htlna\Calculator\Calculator\obj\x86\Debug\Calculator.csprojResolveAssemblyReference.cache
+E:\github\calculator-htlna\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources
+E:\github\calculator-htlna\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+E:\github\calculator-htlna\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
+E:\github\calculator-htlna\Calculator\Calculator\bin\Debug\Calculator.exe
+E:\github\calculator-htlna\Calculator\Calculator\bin\Debug\Calculator.pdb
+E:\github\calculator-htlna\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+E:\github\calculator-htlna\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
