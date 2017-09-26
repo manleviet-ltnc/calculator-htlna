@@ -17,7 +17,7 @@ namespace Calculator
         }
         bool isTypingNumber = false;
 
-        enum Pheptoan { Cong, Tru, Nhan, Chia };
+        enum Pheptoan { None, Cong, Tru, Nhan, Chia };
         Pheptoan pheptoan;
 
         double Nho;
@@ -44,7 +44,8 @@ namespace Calculator
 
         }
         private void NhapPhepToan(object sender, EventArgs e)
-        {
+        { 
+            if (Nho !=0)
             TinhKetQua();
             Button btn = (Button)sender;
             switch (btn.Text)
@@ -78,6 +79,9 @@ namespace Calculator
         {
             TinhKetQua();
             isTypingNumber = false;
+            Nho = 0;
+            pheptoan = Pheptoan.None;
+
         }
 
         private void Form1_KeyPress(object sender, KeyPressEventArgs e)
