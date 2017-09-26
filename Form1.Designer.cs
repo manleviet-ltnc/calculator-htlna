@@ -231,6 +231,7 @@
             this.btnxoa.TabIndex = 2;
             this.btnxoa.Text = "Backspace";
             this.btnxoa.UseVisualStyleBackColor = true;
+            this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // btndoidau
             // 
@@ -250,6 +251,7 @@
             this.btnNho.TabIndex = 1;
             this.btnNho.Text = "C";
             this.btnNho.UseVisualStyleBackColor = true;
+            this.btnNho.Click += new System.EventHandler(this.btnNho_Click);
             // 
             // btnphantram
             // 

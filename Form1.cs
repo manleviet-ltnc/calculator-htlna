@@ -112,5 +112,24 @@ namespace Calculator
         {
             lblHienThi.Text = ((double.Parse(lblHienThi.Text) / 100)).ToString();
         }
+
+        private void btnxoa_Click(object sender, EventArgs e)
+        {
+            if (lblHienThi.Text.Length > 0)
+                lblHienThi.Text = lblHienThi.Text.Remove(lblHienThi.Text.Length - 1, 1);
         }
-    }
+
+        private void btnNho_Click(object sender, EventArgs e)
+        {
+            Nho = 0;
+            lblHienThi.Text = "0";
+        }
+
+      
+
+       
+
+    
+        }
+        }
+    
