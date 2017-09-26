@@ -121,6 +121,10 @@ namespace Calculator
         {
             if (lblHienThi.Text.Length > 0)
                 lblHienThi.Text = lblHienThi.Text.Remove(lblHienThi.Text.Length - 1, 1);
+            if (lblHienThi.Text =="")
+            { 
+                lblHienThi.Text = "0";
+            }
         }
 
         private void btnNho_Click(object sender, EventArgs e)
