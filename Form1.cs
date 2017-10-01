@@ -33,7 +33,14 @@ namespace Calculator
         private void Nhapso(string so)
         {
             if (isTypingNumber)
-                lblHienThi.Text = lblHienThi.Text + so;
+            {
+                // Xoá số 0 ở đầu số
+                if (lblHienThi.Text == "0")
+                    lblHienThi.Text = "";
+
+                lblHienThi.Text += so;
+                }
+               
             else
             {
 
@@ -131,6 +138,22 @@ namespace Calculator
         {
             Nho = 0;
             lblHienThi.Text = "0";
+        }
+
+        private void btncham_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra xem đã tồn tại dấu chấm trong lblHienThi.Text hay chưa
+            if (lblHienThi.Text.Contains("."))
+            {
+                if (lblHienThi.Text == "0.")
+                {
+                    lblHienThi.Text = "";
+                    Nhapso("0.");
+                }
+                return;
+            }
+
+            lblHienThi.Text += ".";
         }
 
       
